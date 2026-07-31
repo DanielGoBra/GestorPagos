@@ -1,0 +1,39 @@
+# Visual Studio / .NET
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+.vs/
+.idea/
+*.user
+*.suo
+*.pdb
+*.nupkg
+
+# Logs and generated files
+*.log
+*.tmp
+*.bak
+
+# Local databases and runtime state
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+appsettings.*.json
+!appsettings.Development.json
+
+# Windows reserved/invalid placeholder file
+nul
+
+# OS/editor files
+Thumbs.db
+.DS_Store
